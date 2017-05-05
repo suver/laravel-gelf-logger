@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/hedii/laravel-gelf-logger.svg?branch=master)](https://travis-ci.org/hedii/laravel-gelf-logger)
+Form from [![Build Status](https://travis-ci.org/hedii/laravel-gelf-logger.svg?branch=master)](https://travis-ci.org/hedii/laravel-gelf-logger)
+
 
 # Laravel Gelf Logger
 
@@ -18,7 +19,7 @@ A package to send [gelf](http://docs.graylog.org/en/2.1/pages/gelf.html) logs to
 Install via [composer](https://getcomposer.org/doc/00-intro.md)
 
 ```sh
-composer require hedii/laravel-gelf-logger
+composer require suver/laravel-gelf-logger
 ```
 
 Add it to your providers array in `config/app.php`:
@@ -83,4 +84,4 @@ composer test
 
 ## License
 
-laravel-gelf-logger is released under the MIT Licence. See the bundled [LICENSE](https://github.com/hedii/laravel-gelf-logger/blob/master/LICENSE.md) file for details.
+laravel-gelf-logger is released under the MIT Licence. See the bundled [LICENSE](https://github.com/suver/laravel-gelf-logger/blob/master/LICENSE.md) file for details.
