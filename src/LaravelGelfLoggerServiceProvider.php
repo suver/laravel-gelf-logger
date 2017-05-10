@@ -1,6 +1,6 @@
 <?php
 
-namespace Hedii\LaravelGelfLogger;
+namespace suver\LaravelGelfLogger;
 
 use Gelf\Logger;
 use Gelf\Publisher;
@@ -46,7 +46,7 @@ class LaravelGelfLoggerServiceProvider extends ServiceProvider
      * @param string $key
      * @return mixed
      */
-    private function getConfig(string $key)
+    private function getConfig($key)
     {
         return $this->app['config']->get('gelf-logger')[$key];
     }

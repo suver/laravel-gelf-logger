@@ -1,6 +1,6 @@
 <?php
 
-namespace Hedii\LaravelGelfLogger;
+namespace suver\LaravelGelfLogger;
 
 use Gelf\Logger;
 

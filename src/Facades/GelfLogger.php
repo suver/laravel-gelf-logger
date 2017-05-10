@@ -1,6 +1,6 @@
 <?php
 
-namespace Hedii\LaravelGelfLogger\Facades;
+namespace suver\LaravelGelfLogger\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

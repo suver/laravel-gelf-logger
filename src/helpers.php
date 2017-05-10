@@ -6,6 +6,6 @@ if (! function_exists('gelf')) {
      */
     function gelf()
     {
-        return app(\Hedii\LaravelGelfLogger\GelfLogger::class);
+        return app(\suver\LaravelGelfLogger\GelfLogger::class);
     }
 }

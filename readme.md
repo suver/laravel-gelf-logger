@@ -25,19 +25,19 @@ composer require suver/laravel-gelf-logger
 Add it to your providers array in `config/app.php`:
 
 ```php
-Hedii\LaravelGelfLogger\LaravelGelfLoggerServiceProvider::class
+suver\LaravelGelfLogger\LaravelGelfLoggerServiceProvider::class
 ```
 
 If you want to use the facade, add it to your aliases array in `config/app.php`:
 
 ```php
-'GelfLogger' => \Hedii\LaravelGelfLogger\Facades\GelfLogger::class
+'GelfLogger' => \suver\LaravelGelfLogger\Facades\GelfLogger::class
 ```
 
 Publish the configuration file:
 
 ```sh
-php artisan vendor:publish --provider="Hedii\LaravelGelfLogger\LaravelGelfLoggerServiceProvider"
+php artisan vendor:publish --provider="suver\LaravelGelfLogger\LaravelGelfLoggerServiceProvider"
 ```
 
 See the content of the published configuration file in `config/gelf-logger.php` if you want to change the defaults.
